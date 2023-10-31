@@ -1,12 +1,62 @@
 {
-    "qwe@gmail.com": {
-        "name": "Md Arifur Rahman",
+    "arif.aust.eng@gmail.com": {
+        "username": "mdarifurrahman",
+        "password": "1234",
+        "role": "admin"
+    },
+    "arif.aust.ng@gmail.com": {
+        "username": "asdasdsa",
         "password": "1234",
         "role": ""
     },
-    "arif.aust.eng@gmail.com": {
-        "username": "mdarifurrahman",
-        "password": "1312313",
+    "arif.ausng@gmail.com": {
+        "username": "e",
+        "password": "1234",
+        "role": ""
+    },
+    "arif.ag@gmail.com": {
+        "username": "esasdas",
+        "password": "^213123",
+        "role": ""
+    },
+    "qwead@gmail.com": {
+        "username": "fcfas",
+        "password": "123456",
+        "role": ""
+    },
+    "arif.sag@gmail.com": {
+        "username": "esasd",
+        "password": "^3^123^1",
+        "role": ""
+    },
+    "arif.qqsag@gmail.com": {
+        "username": "esasd",
+        "password": "1234",
+        "role": ""
+    },
+    "alam@gmail.com": {
+        "username": "asd",
+        "password": "12345",
+        "role": ""
+    },
+    "arif.wwwwaust.eng@gmail.com": {
+        "username": "eqwe",
+        "password": "1234",
+        "role": ""
+    },
+    "arifwwwaust.eng@gmail.com": {
+        "username": "eqwe",
+        "password": "1234",
+        "role": ""
+    },
+    "waust.eng@gmail.com": {
+        "username": "eqwe",
+        "password": "12345",
+        "role": ""
+    },
+    "wa2ust.eng@gmail.com": {
+        "username": "eqwe",
+        "password": "qwe3",
         "role": ""
     }
 }

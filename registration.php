@@ -32,6 +32,14 @@ if (isset($_POST["registration"])) {
             ];
             // print_r($users);
             saveUsers($usersFile, $users);
+            $_SESSION["email"] = $email;
+
+            header("Location: login.php");
+
+            // if(isset($users[$email]["role"]) && $users[$email]["role"] === "admin") {
+            //     header("Location: role_management.php");
+               
+            // }
         }
     }
 }
@@ -49,11 +57,11 @@ if (isset($_POST["registration"])) {
 <body>
     <form action="" method="POST">
         <label for="">Enter Name: </label> <br>
-        <input type="text" name="username" id=""> <br> <br>
+        <input type="text" name="username" id="" required> <br> <br>
         <label for="">Enter Email: </label> <br>
-        <input type="email" name="email" id=""> <br> <br>
+        <input type="email" name="email" id="" required> <br> <br>
         <label for="">Enter Password: </label> <br>
-        <input type="password" name="password" id=""> <br> <br>
+        <input type="password" name="password" id="" required> <br> <br>
         <input type="submit" name="registration" id=""> <br> <br>
 
     </form>
