@@ -9,9 +9,10 @@ echo $_SESSION["email"];
  if (isset($_POST["login"])) {
 
      $login_email = $_POST["email"];
+     $login_password = $_POST["password"];
      echo ($login_email); 
 
-     if ($_SESSION["email"] === $login_email){
+     if ($_SESSION["email"] === $login_email && $login_password === $users[$login_email]["password"] ){
         foreach ($users as $user) {
             if ($user["role"] === "manager") {
                 header("Location: manager.php");
