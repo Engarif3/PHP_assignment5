@@ -1,13 +1,8 @@
 {
-    "arif.aust.eng@gmail.com": {
-        "username": "mdarifurrahman",
-        "password": "1234",
-        "role": "admin"
-    },
     "arif.aust.ng@gmail.com": {
         "username": "asdasdsa",
         "password": "1234",
-        "role": ""
+        "role": "manager"
     },
     "arif.ausng@gmail.com": {
         "username": "e",
@@ -58,5 +53,10 @@
         "username": "eqwe",
         "password": "123",
         "role": ""
+    },
+    "mamun@gmail.com": {
+        "username": "qwer",
+        "password": "1234",
+        "role": "admin"
     }
 }
